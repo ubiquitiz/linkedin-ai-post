@@ -1,1 +1,1 @@
-web: gunicorn -w 4 'flask_app:app'
+web: gunicorn -w 1 linkedin_post_app:app

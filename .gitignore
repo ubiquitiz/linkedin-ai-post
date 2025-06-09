@@ -2,3 +2,7 @@ venv
 .idea
 __pycache__/
 .env
+/ai_agents/linkedin_post/output/
+!/ai_agents/output/
+.venv
+.DS_Store

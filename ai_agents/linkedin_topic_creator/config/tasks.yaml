@@ -1,0 +1,12 @@
+topic_generator_tasks:
+  description: >
+    Brainstorm for an engaging and relevant topic for LinkedIn posts that promote the user's personal brand as an AI consultant. 
+    Ensure that the topic is a concise, simple sentence.
+  inputs:
+    - user_profile: >
+        I am software engineer with a focus on AI consulting, specializing in helping small and mid-sized businesses leverage AI technologies to improve their operations and decision-making processes.
+  expected_output: >
+    A single concise and engaging topic tailored to small and mid-sized businesses,
+  success_criteria: >
+    Topics should be relevant to AI consulting, resonate with the target audience, and be suitable for a LinkedIn post under 3000 characters.
+  agent: topic_generator_agent

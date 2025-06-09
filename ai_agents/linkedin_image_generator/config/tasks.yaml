@@ -1,0 +1,7 @@
+image_generator_task:
+  description: >
+    Create an engaging image specifically related to artificial intelligence topics. The image should:
+    - Feature AI/technology related images or illustrations
+  expected_output: >
+    A single image URL string pointing to an AI-themed image optimized for LinkedIn posting (1200x627 pixels)
+  agent: image_generator_agent

@@ -1,0 +1,13 @@
+create_linkedin_post_task:
+  description: >
+    Create a complete LinkedIn post about {topic} for an intermediate audience that:
+    1. Is under 3000 characters (critical requirement)
+    2. Includes a compelling headline, key insights, and a call to action
+    3. Uses strategic formatting (bullet points, spacing) optimized for LinkedIn
+    4. Focuses on key points without excessive reasoning or explanation
+    5. References credible sources where relevant
+
+    Research the topic if needed, but focus on delivering a complete, ready-to-publish post in a single step.
+  expected_output: >
+    A ready-to-publish LinkedIn post under 3000 characters with no additional commentary, explanations, or metadata.
+  agent: linkedin_post_creator
